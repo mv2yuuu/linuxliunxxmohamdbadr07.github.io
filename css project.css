@@ -1,0 +1,86 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* تنسيق الهيدر */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق القائمة */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق الأقسام */
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #0056b3;
+}
+
+section p, section ul {
+    line-height: 1.6;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+section ul li {
+    margin: 10px 0;
+}
+
+/* تنسيق الفوتر */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0056b3;
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+/* تحسين للأجهزة المحمولة */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px;
+        margin: 10px;
+    }
+}
